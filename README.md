@@ -51,50 +51,38 @@
 ---
 
 ### Cámara
-<!-- Reemplaza esta línea con tu imagen -->
-![Pantalla de Cámara](./screenshots/camera-screen.png)
-
+<img width="372" height="848" alt="image" src="https://github.com/user-attachments/assets/397c3e58-9e27-4772-8be5-9c629bf141ee" />
 *Interfaz para capturar nuevas fotografías con botón flotante.*
 
 ---
 
 ### Galería - Estado Vacío
-<!-- Reemplaza esta línea con tu imagen -->
-![Galería Vacía](./screenshots/gallery-empty.png)
-
+<img width="372" height="848" alt="image" src="https://github.com/user-attachments/assets/8d370d85-4b31-4270-8ee3-9628e3364144" />
 *Mensaje informativo cuando no hay fotos en la galería.*
 
 ---
 
 ### Galería - Con Fotos
-<!-- Reemplaza esta línea con tu imagen -->
-![Galería con Fotos](./screenshots/gallery-photos.png)
-
+<img width="372" height="848" alt="image" src="https://github.com/user-attachments/assets/7f7d1a7a-ed13-4968-a75c-321fe97543ab" />
 *Grid de fotos con opción de eliminar cada imagen.*
 
 ---
 
 ### Vista Fullscreen
-<!-- Reemplaza esta línea con tu imagen -->
-![Vista Fullscreen](./screenshots/fullscreen-view.png)
-
+<img width="746" height="1600" alt="image" src="https://github.com/user-attachments/assets/9cd69546-dc51-4cf9-8607-5f35b98bdfcb" />
 *Visualización ampliada de fotografías.*
 
 ---
 
 ### Confirmación de Eliminación
-<!-- Reemplaza esta línea con tu imagen -->
-![Confirmación Eliminar](./screenshots/delete-confirmation.png)
-
+<img width="779" height="1600" alt="image" src="https://github.com/user-attachments/assets/35117144-a5f0-485f-a5bf-db60bda8ee2f" />
 *Action Sheet para confirmar eliminación de fotos.*
 
 ---
 
 ### Notificaciones Toast
-<!-- Reemplaza esta línea con tu imagen -->
-![Toast Notification](./screenshots/toast-notification.png)
-
-*Feedback visual al capturar o eliminar fotos.*
+<img width="372" height="848" alt="image" src="https://github.com/user-attachments/assets/f7d382c5-f8b3-4312-9f10-ae165befb64d" />
+*Feedback visual al capturar una foto.*
 
 ---
 
@@ -331,19 +319,6 @@ Product → Archive
 
 ## 🎨 Personalización
 
-### Cambiar colores del tema
-
-Edita `src/theme/variables.scss`:
-
-```scss
-:root {
-  --ion-color-primary: #2563eb;
-  --ion-color-secondary: #3b82f6;
-  --ion-color-tertiary: #60a5fa;
-  // ... más colores
-}
-```
-
 ### Cambiar ícono y splash screen
 
 1. Coloca tus imágenes en `resources/`:
@@ -363,33 +338,13 @@ npx capacitor-assets generate --iconBackgroundColor '#ffffff' --splashBackground
 npx cap sync
 ```
 
----
-
-## 🤝 Contribuir
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add: nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
----
 
 ## 👨‍💻 Autor
 
 **Xavier Ochoa**
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-- Email: tu-email@example.com
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+- GitHub: https://github.com/Xavier-Ochoa/Deber_Aplicaciones_Moviles.git
+- Email: luiss.ochoa02@epn.edu.ec
 
 ---
 
@@ -401,15 +356,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
-## 📞 Soporte
-
-Si tienes alguna pregunta o problema, por favor:
-
-1. Revisa la sección de [Issues](https://github.com/tu-usuario/photo-gallery-app/issues)
-2. Crea un nuevo issue si no existe uno similar
-3. Proporciona la mayor cantidad de detalles posible
-
----
 
 <div align="center">
 
