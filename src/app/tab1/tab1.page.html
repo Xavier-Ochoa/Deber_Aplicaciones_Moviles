@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="welcome-container">
+    <ion-icon name="camera" class="welcome-icon"></ion-icon>
+    <h1>Bienvenido</h1>
+    <h2>Demo de Xavier Ochoa</h2>
+    <p>Aplicación de galería de fotos con Ionic</p>
+    
+    <ion-button expand="block" (click)="mostrarAlerta()" class="alert-button">
+      <ion-icon name="notifications" slot="start"></ion-icon>
+      Mostrar Alerta
+    </ion-button>
+  </div>
+
+</ion-content>

@@ -1,0 +1,93 @@
+/* Estado vacío */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 100px;
+  color: var(--ion-color-medium);
+  opacity: 0.3;
+  margin-bottom: 20px;
+}
+
+.empty-state h2 {
+  font-size: 24px;
+  color: var(--ion-color-medium);
+  margin: 10px 0;
+}
+
+.empty-state p {
+  font-size: 16px;
+  color: var(--ion-color-medium);
+  opacity: 0.7;
+}
+
+/* Contenedor de foto */
+.photo-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.gallery-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Botón eliminar */
+.delete-button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  --padding-start: 8px;
+  --padding-end: 8px;
+  height: 36px;
+  width: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+/* Vista fullscreen */
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.fullscreen-image {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10000;
+  --padding-start: 8px;
+  --padding-end: 8px;
+}

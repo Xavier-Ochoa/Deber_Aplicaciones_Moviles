@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Cámara</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cámara</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="camera-container">
+    <ion-icon name="camera-outline" class="camera-icon"></ion-icon>
+    <h2>Captura tus momentos</h2>
+    <p>Presiona el botón de la cámara para tomar una foto</p>
+  </div>
+
+  <!-- BOTÓN FLOTANTE -->
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="addPhotoToGallery()" size="large">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
