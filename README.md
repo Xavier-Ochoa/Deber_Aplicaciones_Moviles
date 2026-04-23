@@ -45,8 +45,6 @@
 
 ### Pantalla de Inicio
 <img width="372" height="848" alt="image" src="https://github.com/user-attachments/assets/6599327a-20a3-4b28-9e26-cc6cf62df71d" />
-![Pantalla de Inicio](./screenshots/home-screen.png)
-
 *Pantalla de bienvenida con mensaje personalizado y botón de alerta.*
 
 ---
